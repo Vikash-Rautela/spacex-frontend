@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns in a row */
+  gap: 20px;
+}
+
+article {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+article h2 {
+  font-size: 1.5rem;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+article p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+}
+
+/* Add hover effect on articles */
+article:hover {
+  transform: scale(1.03);
+}
+
+/* styles.css */
+/* ... (existing styles) ... */
+
+article img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0; /* Rounded corners for the top of the image */
+}
