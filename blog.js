@@ -6,32 +6,32 @@ const blogPosts = [
   {
     title: "Blog Post 1",
     content: "This is the content of Blog Post 1.",
-    imageSrc: "../homestay.jpg", // Image file path or URL
+    imageSrc: "./homestay_2.jpg", // Image file path or URL
   },
   {
     title: "Blog Post 2",
-    content: "This is the content of Blog Post 2.",
-    imageSrc: "../homestay_2.jpg", // Image file path or URL
+    content: "This is the content of Blog Post 3.",
+    imageSrc: "./homestay_2.jpg", // Image file path or URL
   },
   {
     title: "Blog Post 3",
     content: "This is the content of Blog Post 3.",
-    imageSrc: "../homestay_2.jpg", // Image file path or URL
+    imageSrc: "./homestay_2.jpg", // Image file path or URL
   },
   {
     title: "Blog Post 3",
     content: "This is the content of Blog Post 3.",
-    imageSrc: "../homestay_2.jpg",
+    imageSrc: "./homestay_2.jpg",
   },
   {
     title: "Blog Post 3",
     content: "This is the content of Blog Post 3.",
-    imageSrc: "../homestay_2.jpg",
+    imageSrc: "./homestay_2.jpg",
   },
   {
     title: "Blog Post 3",
     content: "This is the content of Blog Post 3.",
-    imageSrc: "../homestay_2.jpg",
+    imageSrc: "./homestay_2.jpg",
   },
 ];
 
